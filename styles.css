@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+body {
+    background-image: url(https://p16-flow-sign-va.ciciai.com/ocean-cloud-tos-us/8e4a8d19a43b4febaf1b689be73cb7f8.png~tplv-6bxrjdptv7-image.png?rk3s=18ea6f23&x-expires=1746167048&x-signature=NURIXJNR0RwdRmAsj4K2Rz0egXc%3D);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form {
+    background: linear-gradient(to bottom right,#F9ECD5,#3E526A );
+    padding: 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type='text'],
+input[type='password'] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #F2BDA6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+}
+button:hover {
+    opacity: 7;
+}
